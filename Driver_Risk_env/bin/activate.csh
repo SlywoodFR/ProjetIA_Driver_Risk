@@ -13,13 +13,13 @@ setenv VIRTUAL_ENV '/Users/ap/Library/Mobile Documents/com~apple~CloudDocs/Estac
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/"bin":$PATH"
+setenv VIRTUAL_ENV_PROMPT Driver_Risk_env
 
 
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = '(Driver_Risk_env) '"$prompt"
-    setenv VIRTUAL_ENV_PROMPT '(Driver_Risk_env) '
+    set prompt = "("Driver_Risk_env") $prompt:q"
 endif
 
 alias pydoc python -m pydoc

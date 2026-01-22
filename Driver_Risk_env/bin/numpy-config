@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/ap/Library/Mobile Documents/com~apple~CloudDocs/Estaca/4A/SEMESTRE_2/IA/ProjetIA_Driver_Risk/Driver_Risk_env/bin/python3.12" "$0" "$@"
+'''exec' "/Users/ap/Library/Mobile Documents/com~apple~CloudDocs/Estaca/4A/SEMESTRE_2/IA/ProjetIA_Driver_Risk/Driver_Risk_env/bin/python3.14" "$0" "$@"
 ' '''
 import sys
 from numpy._configtool import main
